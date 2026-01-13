@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+node_modules/
+.DS_Store
+.vscode/
+.idea/
+# *.sqlite
+# Excluding sqlite files but including specific database files
+# You can add specific db files below if needed

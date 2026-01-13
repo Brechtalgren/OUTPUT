@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+  background: linear-gradient(135deg, #0f0f1a, #1b1b2f);
+  color: #fff;
+}
+
+header {
+  background: rgba(20, 20, 40, 0.95);
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+nav a {
+  color: #9aa8ff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(12px);
+  animation: fadeUp 0.4s ease;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+button {
+  background: linear-gradient(135deg, #7b8cff, #4b5cff);
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+small {
+  color: #ccc;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
